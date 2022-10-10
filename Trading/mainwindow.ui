@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1650</width>
+    <height>911</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>2</y>
+      <width>1621</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="addStrategyBtn">
+       <property name="text">
+        <string>ADD Strategy</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="startBtn">
+       <property name="text">
+        <string>Start</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="stopBtn">
+       <property name="text">
+        <string>Stop</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="saveBtn">
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>40</y>
+      <width>981</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_nifty50">
+       <property name="text">
+        <string>Nifty 50</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="nifty50ValueLedt"/>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_niftybank">
+       <property name="text">
+        <string>Nifty Bank</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="niftybankValueLedt"/>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_indiavix">
+       <property name="text">
+        <string>India VIX</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="indiavixValueLedt"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>7</x>
+      <y>88</y>
+      <width>1631</width>
+      <height>761</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>300</height>
+        </size>
+       </property>
+       <column>
+        <property name="text">
+         <string>Name</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>FUT</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>QTY</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>SPD</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>MSP</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>TOQ</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>DNQ</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>ASP</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>PRT</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>QTY</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>SPD</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>MSP</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>TOQ</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>DNQ</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>ASP</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>PRT</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>BRK</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>NQT</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>ACT</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>250</height>
+        </size>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tradeDetail">
+        <attribute name="title">
+         <string>Trades Detail</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="tradeSummary">
+        <attribute name="title">
+         <string>Trades Summary</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="contractPositions">
+        <attribute name="title">
+         <string>Contract Positons</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="strategyPositions">
+        <attribute name="title">
+         <string>Strategy Positions</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="strategyPositionspDetails">
+        <attribute name="title">
+         <string>Strategy Positions Details</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="strategyParameters">
+        <attribute name="title">
+         <string>Strategy Parameters</string>
+        </attribute>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="textEdit">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>50</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1650</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
